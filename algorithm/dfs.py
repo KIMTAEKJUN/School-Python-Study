@@ -18,7 +18,7 @@ graph = [
     [1,7]
 ]
 
-# 각 노드의 방문 상태를 Flag
+# 각 노드 방문 상태를 표현 (1차원 리스트)
 visited = [False] * 9
 
 dfs(graph, 1, visited)
